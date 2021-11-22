@@ -1,0 +1,145 @@
+/* General */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+p {
+  color: #CD5C5C;
+  font-style: italic;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  padding: 1.2rem; }
+
+/* Header */
+.encabezado {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 1rem; }
+
+.enlaces {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none; }
+
+.enlaces li a {
+  color: #ffff;
+  text-decoration: none;
+  padding: 10px; }
+
+.enlaces li a:hover {
+  background-color: #ffff;
+  color: #77df00;
+  padding: 20px; }
+
+.inicio {
+  color: #FFA07A;
+  font-size: 50px;
+  font-family: 'Krub', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  margin: 2rem; }
+
+.inicio2 {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e); }
+
+/* Flexbox e imagenes */
+.flexbox {
+  display: flex; }
+
+.flexbox__inicio {
+  display: flex;
+  padding-top: 10rem; }
+
+.centrar {
+  text-align: center;
+  padding: 2rem; }
+
+.centrar__img {
+  width: 600px;
+  height: 400px; }
+
+.flexbox2 {
+  display: flex;
+  padding-top: 10rem; }
+
+/* Inicio */
+.inicioNosotros {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  padding: 12rem;
+  display: flex;
+  flex-direction: row-reverse; }
+
+.inicioNosotros p {
+  display: flex;
+  padding-top: 10rem; }
+
+/* Nosotros */
+.carousel-inner {
+  width: 100%; }
+
+.carousel-item img {
+  height: 500px; }
+
+/* Contacto */
+.inicioContacto {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  padding: 12rem; }
+
+.color {
+  text-align: center;
+  color: #CD5C5C; }
+
+.centrarSexo {
+  text-align: center;
+  padding: 5px; }
+
+/* Fotos */
+.inicioFotos {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  padding: 3rem; }
+
+.Fotos {
+  text-align: center;
+  padding: 2rem;
+   
+}
+
+.Fotos__img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%; 
+  flex-direction: row;
+}
+
+.Fotos__enlaces {
+  width: 600px;
+  height: 400px;
+  margin-bottom: 1rem; }
+
+/* Servicios */
+.inicioServicios {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  padding: 12rem; }
+
+/*Barra responsive*/
+.navbar-nav {
+  text-align: center; }
+
+/* Footer */
+.footer {
+  background: linear-gradient(to right, #232526, #414345);
+  padding: 1.5rem; }
+
+  @media (max-width: 768px){
+    .media{
+     flex-direction: column;
+    }
+  }
+
+  @media (max-width: 768px){
+    .flexbox{
+     text-align: center;
+    }
+  }
